@@ -17,6 +17,6 @@ require("lazy").setup({ { import = "webstyle.plugins" }, { import = "webstyle.pl
     notify = false,
   },
   change_detection = {
-    notify = false,
+    notify = true,
   },
 })
